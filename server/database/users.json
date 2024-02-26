@@ -1,0 +1,19 @@
+[
+    {
+      "FirstName": "Adel",
+      "LastName": "Doe",
+      "Email": "john.doe@example.com",
+      "Password": "example123",
+      "PhoneNumber": "1234567890",
+      "ImageURL": "https://pixabay.com/photos/teen-photo-teen-woman-girl-model-8466399/"
+    },
+    {
+      "FirstName": "John",
+      "LastName": "Doe",
+      "Email": "jane.doe@example.com",
+      "Password": "example456",
+      "PhoneNumber": "0987654321",
+      "ImageURL": "https://cdn.pixabay.com/photo/2023/11/20/23/06/woman-8402052_1280.jpg"
+    }
+  ]
+

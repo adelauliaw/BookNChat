@@ -1,0 +1,110 @@
+[
+  {
+    "Name": "Hotel Sunshine",
+    "Address": "123 Sunny Street, Sunville",
+    "PhoneNumber": "123-456-7890",
+    "Description": "A luxurious stay in the heart of Sunville with stunning views.",
+    "Amenities": "Free Wi-Fi, Pool, Spa, Gym",
+    "Rating": 5,
+    "ImageURL": "https://imgur.com/a/hFLHShF"
+  },
+  {
+    "Name": "Moonlight Inn",
+    "Address": "456 Lunar Lane, Mooncity",
+    "PhoneNumber": "987-654-3210",
+    "Description": "Experience tranquility and first-class service at our Moonlight Inn.",
+    "Amenities": "Free Wi-Fi, Moon Viewing Terrace, Spa",
+    "Rating": 4,
+    "ImageURL": "https://imgur.com/a/5jyUVAu"
+  },
+  {
+    "Name": "Starlight Hotel",
+    "Address": "789 Galaxy Road, Starcity",
+    "PhoneNumber": "456-123-7890",
+    "Description": "Modern comforts meet stellar service at the Starlight Hotel.",
+    "Amenities": "Free Wi-Fi, Rooftop Bar, Infinity Pool",
+    "Rating": 5,
+    "ImageURL": "https://imgur.com/a/9RByPk7"
+  },
+  {
+    "Name": "Oceanview Resort",
+    "Address": "321 Beachfront Ave, Oceanville",
+    "PhoneNumber": "321-456-9870",
+    "Description": "Wake up to the sound of waves at our beachfront resort.",
+    "Amenities": "Private Beach, Free Wi-Fi, On-site Dining",
+    "Rating": 5,
+    "ImageURL": "https://imgur.com/a/wjbsv51"
+  },
+  {
+    "Name": "Mountain Retreat",
+    "Address": "654 Hilltop Road, Mountainville",
+    "PhoneNumber": "654-321-1234",
+    "Description": "Escape to the mountains for a peaceful retreat.",
+    "Amenities": "Hiking Trails, Free Wi-Fi, Spa",
+    "Rating": 4,
+    "ImageURL": "https://imgur.com/a/XtaiU7x"
+  },
+  {
+    "Name": "Desert Oasis",
+    "Address": "987 Sand Dunes Road, Desertville",
+    "PhoneNumber": "789-654-1234",
+    "Description": "A serene oasis amidst the desert landscape.",
+    "Amenities": "Free Wi-Fi, Outdoor Pool, Desert Tours",
+    "Rating": 4,
+    "ImageURL": "https://imgur.com/a/OsimB7s"
+  },
+  {
+    "Name": "Urban Boutique Hotel",
+    "Address": "123 City Center Blvd, Downtown",
+    "PhoneNumber": "123-789-4560",
+    "Description": "Stylish accommodations in the heart of the city.",
+    "Amenities": "Free Wi-Fi, Rooftop Lounge, Fitness Center",
+    "Rating": 5,
+    "ImageURL": "https://imgur.com/a/0hsNsTM"
+  },
+  {
+    "Name": "Forest Lodge",
+    "Address": "456 Woods Path, Forestville",
+    "PhoneNumber": "987-123-6540",
+    "Description": "Immerse yourself in nature at our forest lodge.",
+    "Amenities": "Guided Hikes, Free Wi-Fi, Fireplace Lounges",
+    "Rating": 4,
+    "ImageURL": "https://imgur.com/a/jQEY2g3"
+  },
+  {
+    "Name": "Lakeside Inn",
+    "Address": "789 Waterfront Road, Lakecity",
+    "PhoneNumber": "456-789-1230",
+    "Description": "Relax by the lake at our cozy inn.",
+    "Amenities": "Free Wi-Fi, Boat Rentals, Lakeside Terrace",
+    "Rating": 4,
+    "ImageURL": "https://imgur.com/a/Yuj8omC"
+  },
+  {
+    "Name": "Country Manor",
+    "Address": "321 Farm Road, Countryside",
+    "PhoneNumber": "321-654-7890",
+    "Description": "Experience country charm and hospitality at our manor.",
+    "Amenities": "Free Wi-Fi, Farm-to-Table Dining, Horseback Riding",
+    "Rating": 5,
+    "ImageURL": "https://imgur.com/a/okZ5Qig"
+  },
+  {
+    "Name": "Skyline Suites",
+    "Address": "654 Highrise Ave, Metropolis",
+    "PhoneNumber": "654-789-3210",
+    "Description": "Elevate your stay with breathtaking city views.",
+    "Amenities": "Free Wi-Fi, Sky Lounge, Indoor Pool",
+    "Rating": 5,
+    "ImageURL": "https://imgur.com/a/HckaijZ"
+  },
+  {
+    "Name": "Garden Villa",
+    "Address": "987 Greenway Blvd, Gardencity",
+    "PhoneNumber": "789-321-6540",
+    "Description": "A tranquil retreat surrounded by lush gardens.",
+    "Amenities": "Garden Tours, Free Wi-Fi, Organic Dining",
+    "Rating": 4,
+    "ImageURL": "https://drive.google.com/file/d/1vihP8cayOcranyEXOerVnHn7xgT5jN0h/view?usp=drive_link"
+  }
+]
