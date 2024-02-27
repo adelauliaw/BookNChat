@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
       Hotel.hasMany(models.Room)
       Hotel.hasMany(models.Review)
-      Hotel.hasMany(models.HotelFacilities)
+      // Hotel.hasMany(models.HotelFacilities)
     }
   }
   Hotel.init({

@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "Standard Double",
+    "Price": 1875000,
+    "MaxOccupancy": 2,
+    "Amenities": "Wi-Fi Gratis, AC, TV",
+    "imageURL": "[https://imgur.com/a/exampleImage1](https://imgur.com/a/exampleImage1)",
+    "HotelID": 1
+  },
+  {
+    "Type": "Deluxe Suite",
+    "Price": 3550000,
+    "MaxOccupancy": 4,
+    "Amenities": "Wi-Fi Gratis, AC, TV, Balkon, Dapur Kecil",
+    "imageURL": "[https://imgur.com/a/exampleImage2](https://imgur.com/a/exampleImage2)",
+    "HotelID": 2
+  },
+  {
+    "Type": "Presidential Suite",
+    "Price": 7500000,
+    "MaxOccupancy": 6,
+    "Amenities": "Wi-Fi Gratis, AC, TV, Ruang Tamu, Kamar Mandi Pribadi, Jacuzzi",
+    "imageURL": "[https://imgur.com/a/exampleImage3](https://imgur.com/a/exampleImage3)",
+    "HotelID": 2
+  },
+  {
+    "Type": "Standard Double",
+    "Price": 1875000,
+    "MaxOccupancy": 2,
+    "Amenities": "Wi-Fi Gratis, AC, TV",
+    "imageURL": "[https://imgur.com/a/exampleImage1](https://imgur.com/a/exampleImage1)",
+    "HotelID": 1
+  },
+  {
+    "Type": "Deluxe Suite",
+    "Price": 3550000,
+    "MaxOccupancy": 4,
+    "Amenities": "Wi-Fi Gratis, AC, TV, Balkon, Dapur Kecil",
+    "imageURL": "[https://imgur.com/a/exampleImage2](https://imgur.com/a/exampleImage2)",
+    "HotelID": 3
+  },
+  {
+    "Type": "Presidential Suite",
+    "Price": 7500000,
+    "MaxOccupancy": 6,
+    "Amenities": "Wi-Fi Gratis, AC, TV, Ruang Tamu, Kamar Mandi Pribadi, Jacuzzi",
+    "imageURL": "[https://imgur.com/a/exampleImage3](https://imgur.com/a/exampleImage3)",
+    "HotelID": 3
+  }
+]
