@@ -1,3 +1,4 @@
+const {User} = require('../models/index');
 module.exports = class UserController {
   static async createUser(req, res, next) {
     try {
@@ -9,9 +10,11 @@ module.exports = class UserController {
         PhoneNumber: req.body.PhoneNumber,
         ImageURL: req.body.ImageURL
       })
+      console.log(req.body, "kkkk")
+      console.log(newUser, "<<ini body")
       res.status(201).json(`User with email ${newUser.Email} and id ${newUser.id} has been created`)
     } catch (error) {
-      console.log(error, "<<<user");
+      console.log(error, req.body);
       next(error)
     }
   }
