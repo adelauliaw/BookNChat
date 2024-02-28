@@ -1,7 +1,9 @@
+const { hashPassword, comparePassword } = require('../helpers/hashedPassword');
 'use strict';
 const {
   Model
 } = require('sequelize');
+
 module.exports = (sequelize, DataTypes) => {
   class User extends Model {
     /**
@@ -81,6 +83,10 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'User',
+  });
+  User.beforeCreate(async (user, options) => {
+    const hashingPassword = await hashPassword(user.Password);
+    user.Password = hashingPassword;
   });
   return User;
 };

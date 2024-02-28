@@ -2,6 +2,7 @@ const bcrypt = require('bcryptjs');
 
 const hashPassword = (password) => {
   const hash = bcrypt.hashSync(password, 8);
+  console.log(hash, "<<<<")
   return hash
 }
 const comparePassword = (password, hash) => {
