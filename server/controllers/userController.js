@@ -12,9 +12,9 @@ module.exports = class UserController {
         PhoneNumber: req.body.PhoneNumber,
         ImageURL: req.body.ImageURL
       })
-      res.status(201).json(`User with email ${newUser.Email} and id ${newUser.id} has been created`)
+      res.status(201).json(`User with email ${newUser.Email} has been created`)
     } catch (error) {
-      // console.log(error, req.body);
+      console.log(error.errors[0].message, "Error check")
       next(error)
     }
   }
@@ -23,7 +23,6 @@ module.exports = class UserController {
       const findUserById = await User.findByPk(req.params.id)
       res.status(200).json(`User with name ${findUserById.FirstName} has already found`)
     } catch (error) {
-      // console.log(error)
       next(error)
     }
   }
