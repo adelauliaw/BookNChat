@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      Room.belongsTo(models.Hotel, { foreignKey: 'HotelID' }); // Ensure this matches your model name and foreignKey
+      Room.belongsTo(models.Hotel, { foreignKey: 'HotelId' }); // Ensure this matches your model name and foreignKey
       Room.hasMany(models.RoomAvailability, {foreignKey: "RoomID"})
       Room.hasMany(models.RoomFacility, {foreignKey: "RoomID"})
       Room.hasMany(models.Booking, {foreignKey: "RoomID"})
@@ -56,26 +56,26 @@ module.exports = (sequelize, DataTypes) => {
     },
     Amenities: DataTypes.STRING, // Add validation as needed
     imageURL: DataTypes.STRING, // Add validation as needed for URLs
-    HotelID: {
+    HotelId: {
       type: DataTypes.INTEGER,
       allowNull: false,
       validate: {
         isInt: {
-          msg: "HotelID must be an integer",
+          msg: "HotelId must be an integer",
         },
       }
     }
   }, {
     sequelize,
-    modelName: 'Room',
-    indexes: [
-      // Creates a unique constraint for Type and HotelID
-      {
-        name: 'uniqueRoomTypePerHotel',
-        unique: true,
-        fields: ['Type', 'HotelID']
-      },
-    ],
+    // modelName: 'Room',
+    // indexes: [
+    //   // Creates a unique constraint for Type and HotelID
+    //   {
+    //     name: 'uniqueRoomTypePerHotel',
+    //     unique: true,
+    //     fields: ['Type', 'HotelID']
+    //   },
+    // ],
   });
   return Room;
 };

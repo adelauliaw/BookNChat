@@ -5,7 +5,7 @@
     "MaxOccupancy": 2,
     "Amenities": "Wi-Fi Gratis, AC, TV",
     "imageURL": "[https://imgur.com/a/exampleImage1](https://imgur.com/a/exampleImage1)",
-    "HotelID": 1
+    "HotelId": 1
   },
   {
     "Type": "Deluxe Suite",
@@ -13,7 +13,7 @@
     "MaxOccupancy": 4,
     "Amenities": "Wi-Fi Gratis, AC, TV, Balkon, Dapur Kecil",
     "imageURL": "[https://imgur.com/a/exampleImage2](https://imgur.com/a/exampleImage2)",
-    "HotelID": 2
+    "HotelId": 2
   },
   {
     "Type": "Presidential Suite",
@@ -21,7 +21,7 @@
     "MaxOccupancy": 6,
     "Amenities": "Wi-Fi Gratis, AC, TV, Ruang Tamu, Kamar Mandi Pribadi, Jacuzzi",
     "imageURL": "[https://imgur.com/a/exampleImage3](https://imgur.com/a/exampleImage3)",
-    "HotelID": 2
+    "HotelId": 2
   },
   {
     "Type": "Standard Double",
@@ -29,7 +29,7 @@
     "MaxOccupancy": 2,
     "Amenities": "Wi-Fi Gratis, AC, TV",
     "imageURL": "[https://imgur.com/a/exampleImage1](https://imgur.com/a/exampleImage1)",
-    "HotelID": 1
+    "HotelId": 1
   },
   {
     "Type": "Deluxe Suite",
@@ -37,7 +37,7 @@
     "MaxOccupancy": 4,
     "Amenities": "Wi-Fi Gratis, AC, TV, Balkon, Dapur Kecil",
     "imageURL": "[https://imgur.com/a/exampleImage2](https://imgur.com/a/exampleImage2)",
-    "HotelID": 3
+    "HotelId": 3
   },
   {
     "Type": "Presidential Suite",
@@ -45,6 +45,6 @@
     "MaxOccupancy": 6,
     "Amenities": "Wi-Fi Gratis, AC, TV, Ruang Tamu, Kamar Mandi Pribadi, Jacuzzi",
     "imageURL": "[https://imgur.com/a/exampleImage3](https://imgur.com/a/exampleImage3)",
-    "HotelID": 4
+    "HotelId": 4
   }
 ]
