@@ -2,6 +2,7 @@ const { signToken, verifyToken } = require('../helpers/jwt')
 const { User } = require('../models/')
 
 const authentication = async (req, res, next) => {
+  console.log("masuk sini")
   try {
     //?cek token ada atau nggak lu bawa id card dikalungin 
     const { access_token } = req.headers
@@ -33,7 +34,7 @@ const authentication = async (req, res, next) => {
   }
 
 }
-//throw itu nidahin flow coding dar mengubah data dari yang dinawahnya jdai kebawah (error)
+
 
 
 

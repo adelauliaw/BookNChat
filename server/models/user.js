@@ -70,7 +70,7 @@ module.exports = (sequelize, DataTypes) => {
           args: [10, 14],
           msg: "Phone number must be between 10 and 14 digits",
         },
-      },
+      },  
     },
     ImageURL: {
       type: DataTypes.STRING,
