@@ -1,7 +1,7 @@
 [
   {
     "Name": "Hotel Sunshine",
-    "Address": "123 Sunny Street, Sunville",
+    "Address": "Jakarta",
     "PhoneNumber": "123-456-7890",
     "Description": "A luxurious stay in the heart of Sunville with stunning views.",
     "Amenities": "Free Wi-Fi, Pool, Spa, Gym",
@@ -10,7 +10,7 @@
   },
   {
     "Name": "Moonlight Inn",
-    "Address": "456 Lunar Lane, Mooncity",
+    "Address": "Jakarta",
     "PhoneNumber": "987-654-3210",
     "Description": "Experience tranquility and first-class service at our Moonlight Inn.",
     "Amenities": "Free Wi-Fi, Moon Viewing Terrace, Spa",
@@ -19,7 +19,7 @@
   },
   {
     "Name": "Starlight Hotel",
-    "Address": "789 Galaxy Road, Starcity",
+    "Address": "Bandung",
     "PhoneNumber": "456-123-7890",
     "Description": "Modern comforts meet stellar service at the Starlight Hotel.",
     "Amenities": "Free Wi-Fi, Rooftop Bar, Infinity Pool",
@@ -28,7 +28,7 @@
   },
   {
     "Name": "Oceanview Resort",
-    "Address": "321 Beachfront Ave, Oceanville",
+    "Address": "Bandung",
     "PhoneNumber": "321-456-9870",
     "Description": "Wake up to the sound of waves at our beachfront resort.",
     "Amenities": "Private Beach, Free Wi-Fi, On-site Dining",
@@ -37,7 +37,7 @@
   },
   {
     "Name": "Mountain Retreat",
-    "Address": "654 Hilltop Road, Mountainville",
+    "Address": "Bandung",
     "PhoneNumber": "654-321-1234",
     "Description": "Escape to the mountains for a peaceful retreat.",
     "Amenities": "Hiking Trails, Free Wi-Fi, Spa",
@@ -46,7 +46,7 @@
   },
   {
     "Name": "Desert Oasis",
-    "Address": "987 Sand Dunes Road, Desertville",
+    "Address": "Jakarta",
     "PhoneNumber": "789-654-1234",
     "Description": "A serene oasis amidst the desert landscape.",
     "Amenities": "Free Wi-Fi, Outdoor Pool, Desert Tours",
@@ -55,7 +55,7 @@
   },
   {
     "Name": "Urban Boutique Hotel",
-    "Address": "123 City Center Blvd, Downtown",
+    "Address": "Bandung",
     "PhoneNumber": "123-789-4560",
     "Description": "Stylish accommodations in the heart of the city.",
     "Amenities": "Free Wi-Fi, Rooftop Lounge, Fitness Center",

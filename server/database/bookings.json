@@ -1,0 +1,58 @@
+[
+  {
+    "CheckInDate": "2023-02-01",
+    "CheckOutDate": "2023-02-05",
+    "TotalPrice": "500000",
+    "Status": "pending",
+    "UserID": 1,
+    "RoomID": 1
+  },
+  {
+    "CheckInDate": "2023-03-15",
+    "CheckOutDate": "2023-03-20",
+    "TotalPrice": "750000",
+    "Status": "pending",
+    "UserID": 1,
+    "RoomID": 2
+  },
+  {
+    "CheckInDate": "2023-04-01",
+    "CheckOutDate": "2023-04-07",
+    "TotalPrice": "800000",
+    "Status": "confirmed",
+    "UserID": 1,
+    "RoomID": 3
+  },
+  {
+    "CheckInDate": "2023-05-10",
+    "CheckOutDate": "2023-05-15",
+    "TotalPrice": "1000000",
+    "Status": "pending",
+    "UserID": 2,
+    "RoomID": 1
+  },
+  {
+    "CheckInDate": "2023-06-15",
+    "CheckOutDate": "2023-06-22",
+    "TotalPrice": "1200000",
+    "Status": "confirmed",
+    "UserID": 2,
+    "RoomID": 3
+  },
+  {
+    "CheckInDate": "2023-07-01",
+    "CheckOutDate": "2023-07-05",
+    "TotalPrice": "600000",
+    "Status": "pending",
+    "UserID": 2,
+    "RoomID": 2
+  },
+  {
+    "CheckInDate": "2023-08-10",
+    "CheckOutDate": "2023-08-14",
+    "TotalPrice": "700000",
+    "Status": "confirmed",
+    "UserID": 2,
+    "RoomID": 4
+  }
+]
