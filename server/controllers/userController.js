@@ -44,6 +44,7 @@ module.exports = class UserController {
           throw { name: "InvalidLogin" }
         } else {
           //?compare dua hal Password yang dimasukkin sama di database
+          console.log(req.body.Password, findUser.Password)
           const checkPassword = comparePassword(req.body.Password, findUser.Password)
           console.log(checkPassword, "<<< dari cek Password");
           if (!checkPassword) {
@@ -93,14 +94,15 @@ module.exports = class UserController {
   }
   static async fetchBookingRoomByUser(req, res, next){
     try {
-      const {id} = req.user
-      const findUser = await User.findAll({
-        include: [{
-            model: Booking,
-            where: {
-                UserID: id/// Filter by UserId from request
-            }
-        }]
+      const id = req.user.id
+      console.log(id, ">>>> ini id")
+      const findUser = await Booking.findAll({
+        where:{
+          UserID: id
+        },
+        include:{
+          model: User
+        }
     });
     console.log(id, findUser)
       res.status(200).json(findUser)
