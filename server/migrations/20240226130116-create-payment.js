@@ -25,7 +25,7 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      BookingID: {
+      BookingId: {
         type: Sequelize.INTEGER,
         allowNull: false,
         references: {

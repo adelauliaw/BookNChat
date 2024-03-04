@@ -10,8 +10,7 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      // define association here
-      Payment.belongsTo(models.Booking, {foreignKey: 'BookingID'});
+      Payment.belongsTo(models.Booking, {foreignKey: 'id'});
     }
   }
   Payment.init({
@@ -63,17 +62,17 @@ module.exports = (sequelize, DataTypes) => {
         }
       }
     },
-    BookingID: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      unique: true, // This assumes a one-to-one relationship between Payment and Booking
-      references: {
-        model: 'Bookings',
-        key: 'id',
-      },
-      onUpdate: 'CASCADE',
-      onDelete: 'SET NULL',
-    }
+    // BookingId: {
+    //   type: DataTypes.INTEGER,
+    //   allowNull: false,
+    //   unique: true, // This assumes a one-to-one relationship between Payment and Booking
+    //   references: {
+    //     model: 'Bookings',
+    //     key: 'id',
+    //   },
+    //   onUpdate: 'CASCADE',
+    //   onDelete: 'SET NULL',
+    // }
   }, {
     sequelize,
     modelName: 'Payment',

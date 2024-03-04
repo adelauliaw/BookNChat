@@ -7,17 +7,12 @@ module.exports = class HotelController{
         // where: { Address: req.body.Address },
         include: [{
           model: Room,
-        //   // where: {
-        //   //   CheckInDate: { [Sequelize.Op.lte]: new Date(CheckInDate) },
-        //   //   CheckOutDate: { [Sequelize.Op.gte]: new Date(CheckOutDate) }
-        //   // },
         }]
       });
   
       res.json({ hotels });
     } catch (error) {
-      console.error("Error fetching hotels:", error);
-      res.status(500).json({ message: "Internal Server Error" });
+      next
     }
   }
 

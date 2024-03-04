@@ -67,15 +67,15 @@ module.exports = (sequelize, DataTypes) => {
     }
   }, {
     sequelize,
-    // modelName: 'Room',
-    // indexes: [
-    //   // Creates a unique constraint for Type and HotelID
-    //   {
-    //     name: 'uniqueRoomTypePerHotel',
-    //     unique: true,
-    //     fields: ['Type', 'HotelID']
-    //   },
-    // ],
+    modelName: 'Room',
+    indexes: [
+      // Creates a unique constraint for Type and HotelID
+      {
+        name: 'uniqueRoomTypePerHotel',
+        unique: true,
+        fields: ['Type', 'HotelID']
+      },
+    ],
   });
   return Room;
 };

@@ -1,6 +1,7 @@
 const { comparePassword} = require('../helpers/hashedPassword');
 const { signToken, verifyToken } = require('../helpers/jwt');
-const {User} = require('../models/index');
+const booking = require('../models/booking');
+const {User, Room, Booking} = require('../models/index');
 module.exports = class UserController {
   static async registerUser(req, res, next) {
     try {
@@ -9,11 +10,11 @@ module.exports = class UserController {
       if (!/^[0-9]+$/.test(checkPhoneNumber) || !checkPhoneNumber.startsWith('08')) {
         throw {name: "invalidPhoneNumber"}
       }
-      const hasSpecialChars = /[~!@#$%^&*()))_+-={}|:"><?[]\;',.`]+/.test(checkPassword);
-      const hasCapitalLetter = /[A-Z]+/.test(checkPassword);
-      if (!hasSpecialChars || !hasCapitalLetter) {
-        throw {name: "invalidPassword"}
-      }
+      // const hasSpecialChars = /[~!@#$%^&*()))_+-={}|:"><?[]\;',.`]+/.test(checkPassword);
+      // const hasCapitalLetter = /[A-Z]+/.test(checkPassword);
+      // if (!hasSpecialChars || !hasCapitalLetter) {
+      //   throw {name: "invalidPassword"}
+      // }
       const newUser = await User.create({
         FirstName: req.body.FirstName,
         LastName: req.body.LastName,
@@ -88,6 +89,23 @@ module.exports = class UserController {
     } catch (error) {
       console.log(error)
       next(error)
+    }
+  }
+  static async fetchBookingRoomByUser(req, res, next){
+    try {
+      const {id} = req.user
+      const findUser = await User.findAll({
+        include: [{
+            model: Booking,
+            where: {
+                UserID: id/// Filter by UserId from request
+            }
+        }]
+    });
+    console.log(id, findUser)
+      res.status(200).json(findUser)
+    } catch (error) {
+      console.log(error)
     }
   }
 

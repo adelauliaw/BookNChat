@@ -4,4 +4,5 @@ const hotelRouter = express.Router()
 
 hotelRouter.get('/', hotelController.fetchHotel)
 
+
 module.exports = hotelRouter

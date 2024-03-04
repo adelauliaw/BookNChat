@@ -13,25 +13,10 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
       Booking.belongsTo(models.User, { foreignKey: 'UserID' });
       Booking.belongsTo(models.Room, { foreignKey: 'RoomID' }); // Assuming the model name is Room
-      Booking.hasMany(models.Payment, { foreignKey: 'BookingID' });
+      Booking.hasMany(models.Payment);
     }
   }
   Booking.init({
-    Email: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      unique: {
-        msg: "Email must be unique",
-      },
-      validate: {
-        isEmail: {
-          msg: "Invalid Email Format",
-        },
-        notEmpty: {
-          msg: "Email is required",
-        },
-      }
-    },
     CheckInDate: {
       type: DataTypes.DATE,
       allowNull: false
